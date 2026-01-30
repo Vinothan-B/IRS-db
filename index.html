@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instant Ration System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>WELCOME!!</h1>
+<h2>INSTANT RATION SYSTEM</h2>
+
+<div class="card">
+
+  <h3>Ration Card Information</h3>
+
+  <p><b>Ration Card No:</b> <span id="rc"></span></p>
+  <p><b>Card Type:</b> <span id="type"></span></p>
+  <p><b>Issue Date:</b> <span id="issue"></span></p>
+  <p><b>FPS Code:</b> <span id="fps"></span></p>
+
+  <hr>
+
+  <h3>Head of Family</h3>
+  <p id="head"></p>
+
+  <hr>
+
+  <h3>Family Members Details</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Relation</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Aadhaar</th>
+      </tr>
+    </thead>
+    <tbody id="familyTable"></tbody>
+  </table>
+
+  <hr>
+
+  <h3>Residential Address</h3>
+  <p id="address"></p>
+
+  <hr>
+
+  <h3>Monthly Commodity Entitlement</h3>
+  <ul>
+    <li>Rice: <span id="rice"></span></li>
+    <li>Wheat: <span id="wheat"></span></li>
+    <li>Sugar: <span id="sugar"></span></li>
+    <li>Kerosene: <span id="kerosene"></span></li>
+  </ul>
+
+</div>
+
+<!-- JS FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>
